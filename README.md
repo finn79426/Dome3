@@ -14,7 +14,7 @@ No more Chrome extension installations!
 
 - Real-time Monitoring: Instant detection of wallet addresses on your clipboard.
 - Out-of-the-box: Support for both macOS and Windows.
-- Threat Intelligence Integration: Powered by trustworthy, open-source blockchain threat data providers (e.g., Revoke.cash, ScamSniffer, Scorechain).
+- Threat Intelligence Integration: Powered by trustworthy, open-source blockchain threat data (e.g., Revoke.cash, ScamSniffer, Scorechain).
 - Custom Labeling: Easily manage and edit custom labels for known wallet addresses.
 - Focus Mode: "Do Not Disturb" support for uninterrupted workflow. (convenient for a trader, investigator)
 
