@@ -30,7 +30,9 @@ The application is designed to react only to strings that match specific blockch
 
 ### How do I add an external blockchain intelligence source?
 
-**Dome3 is designed to be extensible.** If you wish to integrate third-party providers (e.g., Chainalysis, MistTrack), follow these steps:
+**Dome3 is designed to be extensible.**
+
+If you wish to introduce third-party intel providers (e.g., Chainalysis, MistTrack), follow these steps:
 
 1. Create a new module under externals/ to handle the API logic.
 2. Ensure your struct implements the `externals::mod::Evaluation` trait.
@@ -43,14 +45,14 @@ We're welcome to incorporate any useful blockchain intelligence sources to make 
 
 ### How to import/export existing labeled addresses list?
 
-For portability and batch editing, **the labeled address list is deliberately designed as a simple CSV format**. You can directly edit this file to import or export data.
+For portability and batch editing, **the labeled address list is deliberately designed as a simple CSV file**. You can directly edit this file to import or export data.
 
-CSV Location:
+CSV File Path:
 
-- macOS: `Dome3.app/labeled_address.csv`
-- Windows: The same directory as `Dome3.exe`
+- macOS: `~/Library/Application Support/com.dome3.app/labeled_addresses.csv`
+- Windows: `%APPDATA%\dome3\app\data\labeled_addresses.csv`
 
-CSV Format Example:
+As a reference, CSV Example:
 
 ```csv
 network,address,label
