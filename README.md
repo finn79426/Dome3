@@ -33,13 +33,13 @@ The application is designed to react only to strings that match specific blockch
 3. Implement the evaluate function for your struct.
 4. Register your new source by adding `<YourAPIProvider>::evaluate()` to the `external::mod::evaluate_all` function.
 
-If you require such integration, we strongly recommend opening a PR to collaborate.
+If you require such integration, **we strongly recommend opening a PR** to collaborate.
 
 We're welcome to incorporate any useful blockchain intelligence sources to make the Web3 ecosystem safer!
 
 ### How to import/export existing labeled addresses list?
 
-For ease of use and batch editing, the labeled address list utilizes a **simple CSV format**. You can directly edit this file to import or export data.
+For portability and batch editing, **the labeled address list is deliberately designed as a simple CSV format**. You can directly edit this file to import or export data.
 
 CSV Location:
 
