@@ -1,10 +1,14 @@
 # Dome3: Your Web3 Endpoint Protection Tool
 
-![Rust](https://img.shields.io/badge/-Rust-black?style=flat-square&logo=rust&logoColor=white) ![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?style=flat-square&logo=windows11&logoColor=white) ![macOS](https://img.shields.io/badge/-macOS-black?style=flat-square&logo=apple&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/-Rust-black?style=flat-square&logo=rust&logoColor=white" alt="Rust">
+  <img src="https://custom-icon-badges.demolab.com/badge/Windows-0078D6?style=flat-square&logo=windows11&logoColor=white" alt="Windows">
+  <img src="https://img.shields.io/badge/-macOS-black?style=flat-square&logo=apple&logoColor=white" alt="macOS">
+</p>
 
 A background daemon that automatically detects, validates, and displays wallet details whenever you copy an address.
 
-No more Chrome extension!
+No more Chrome extension installations!
 
 ## Features
 
@@ -33,7 +37,7 @@ The application is designed to react only to strings that match specific blockch
 3. Implement the evaluate function for your struct.
 4. Register your new source by adding `<YourAPIProvider>::evaluate()` to the `external::mod::evaluate_all` function.
 
-If you require such integration, **we strongly recommend opening a PR** to collaborate.
+If you require such integration, **we strongly recommend opening a PR ticket** to collaborate.
 
 We're welcome to incorporate any useful blockchain intelligence sources to make the Web3 ecosystem safer!
 
