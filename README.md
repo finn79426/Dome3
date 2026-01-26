@@ -53,7 +53,7 @@ CSV File Path:
 - macOS: `~/Library/Application Support/com.dome3.app/labeled_addresses.csv`
 - Windows: `%APPDATA%\dome3\app\data\labeled_addresses.csv`
 
-As a reference, CSV Example:
+As a reference, CSV content should looks something like this:
 
 ```csv
 network,address,label
