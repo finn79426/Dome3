@@ -35,6 +35,8 @@ If you'd like to, you can also edit your own allow list.
 
 <https://github.com/user-attachments/assets/5675b504-6ad2-4d5d-894c-1d97e979ae3d>
 
+<img width="2440" height="1802" alt="Demo4" src="https://github.com/user-attachments/assets/748bb954-f0ff-43ee-8122-37b0826d66c9" />
+
 Your custom label list will be stored in the following path:
 
 - macOS: `~/Library/Application Support/com.dome3.app/labeled_addresses.csv`
@@ -62,14 +64,13 @@ The application is designed to react only to strings that match specific blockch
 
 **Dome3 is designed to be extensible.**
 
-If you like to introduce paid intel providers (e.g., Chainalysis, MistTrack), follow these steps:
+If you like to import paid intel providers (e.g., Chainalysis, MistTrack), follow these steps:
 
-1. Create a new module under externals/ to handle the API logic.
-2. Ensure your struct implements the `externals::mod::Evaluation` trait.
-3. Implement the evaluate function for your struct.
-4. Register your new source by adding `<YourAPIProvider>::evaluate()` to the `external::mod::evaluate_all` function.
+1. Create a new module under [externals](/src/externals/) to handle the API logic.
+2. Implements the `externals::mod::Evaluation` trait for your module.
+3. Register your module in `external::mod::evaluate_all` function.
 
-However, if you require such integration, **we strongly recommend opening a PR ticket** to collaborate.
+However, if you require such extension, **we strongly recommend opening a PR ticket** to us.
 
 We welcome cooperation with any blockchain intelligence sources.
 
@@ -99,5 +100,4 @@ Polkadot,5Evad6C4kvs1TMkYzgRjtGtYfF5Qw4jrgkfYPP45cS5MT3dp,Fred
 
 ### How to kill/restart the process?
 
-You can use Task Manager (on Windows) or Activity Monitor (on macOS) to find the Dome3 process, then terminate it manually.
-
+You can use Task Manager (on Windows) or Activity Monitor (on macOS) to find the `Dome3` process, then terminate it.
