@@ -14,6 +14,9 @@ use std::path::PathBuf;
 use tokio;
 use walkdir::WalkDir;
 
+/// Data Source: https://github.com/RevokeCash/whois
+/// Using Dataset: https://github.com/RevokeCash/whois/tree/main/data/manual/spenders
+
 #[derive(Clone)]
 pub struct RevokeCashWhois {
     remote_repo_url: String,

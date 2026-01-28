@@ -11,6 +11,9 @@ use std::env;
 use std::path::PathBuf;
 use tokio;
 
+/// Data Source: https://github.com/scamsniffer/scam-database
+/// Using Dataset: https://github.com/scamsniffer/scam-database/blob/main/blacklist/all.json
+
 pub struct Dependency {
     pub http_client: reqwest::Client,
 }

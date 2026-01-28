@@ -10,6 +10,9 @@ use serde_json;
 use std::time::Duration;
 use std::time::Instant;
 
+/// Data Source: Scorechain Free Sanction API
+/// Integration Document: https://docs.scorechain.com/sanctioned-addresses/endpoints/sanction
+
 pub struct Dependency {
     pub http_client: reqwest::Client,
 }
