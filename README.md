@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="3334" height="3334" alt="Demo" src="https://github.com/user-attachments/assets/dfd4416d-36d0-4d3f-8315-f95e80d08ff2" />
+<img width="3324" height="1894" alt="Demo" src="https://github.com/user-attachments/assets/06a0568b-5de7-4456-9f52-174c65a32e69" />
 
 # Dome3
 
