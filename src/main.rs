@@ -776,6 +776,5 @@ fn main() -> iced::Result {
     iced::daemon(Daemon::new, Daemon::update, Daemon::view)
         .subscription(Daemon::subscribe)
         .title(Daemon::title)
-        // .style(App::style)
         .run()
 }
