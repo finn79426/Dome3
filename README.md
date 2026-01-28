@@ -24,7 +24,7 @@ Dome3 monitors your system clipboard and reacts when you are trying to copy a wa
 
 <https://github.com/user-attachments/assets/28a8c7a3-85ec-4dca-ba59-ec4ad2aa5738>
 
-Its threat intelligence is powered by security researchers and curated open-source OSINT datasets.
+Its threat intelligence is powered by security researchers and open-source OSINT datasets.
 
 - Revoke.cash
 - ScamSniffer
