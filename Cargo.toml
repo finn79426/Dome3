@@ -1,0 +1,37 @@
+[package]
+name = "Dome3"
+version = "0.1.0"
+edition = "2024"
+
+[package.metadata.bundle]
+name = "Dome3"
+identifier = "com.dome.app"
+icon = ["gallery/Dome3.icns"]
+
+[dependencies]
+anyhow = "1.0.100"
+arboard = "3.6.1"
+async-trait = "0.1.89"
+bitcoin = "0.32.8"
+bs58 = "0.5.1"
+chrono = { version = "0.4.43", features = ["serde"] }
+csv = "1.4.0"
+dashmap = "6.1.0"
+directories = "6.0.0"
+env_logger = "0.11.8"
+futures = "0.3.31"
+git2 = "0.20.3"
+iced = { version = "0.14.0", features = ["tokio", "svg"] }
+log = "0.4.29"
+regex = "1.12.2"
+reqwest = { version = "0.13.1", features = ["json"] }
+rust-embed = "8.11.0"
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.149"
+sha2 = "0.10.9"
+sha3 = "0.10.8"
+sp-core = "39.0.0"
+strum = { version = "0.27.2", features = ["strum_macros"] }
+strum_macros = "0.27.2"
+tokio = { version = "1.49.0", features = ["macros", "rt-multi-thread", "sync", "time", "fs"] }
+walkdir = "2.5.0"
