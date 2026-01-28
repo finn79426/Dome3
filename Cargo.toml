@@ -8,6 +8,13 @@ name = "Dome3"
 identifier = "com.dome.app"
 icon = ["gallery/Dome3.icns"]
 
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1   
+panic = "abort"
+strip = true     
+
 [dependencies]
 anyhow = "1.0.100"
 arboard = "3.6.1"
