@@ -1,6 +1,10 @@
 <div align="center">
 
-![demo](/gallery/Demo.png)
+<img width="3334" height="3334" alt="Demo" src="https://github.com/user-attachments/assets/dfd4416d-36d0-4d3f-8315-f95e80d08ff2" />
+
+# Dome3
+
+An antivirus-like endpoint protection tool for crypto natives.
 
 <p align="center">
   <img src="https://img.shields.io/badge/-Rust-black?style=flat-square&logo=rust&logoColor=white" alt="Rust">
@@ -8,37 +12,40 @@
   <img src="https://img.shields.io/badge/-macOS-black?style=flat-square&logo=apple&logoColor=white" alt="macOS">
 </p>
 
-# Dome3
-
-An antivirus-like endpoint protection tool for crypto natives.
-
 </div>
 
 ## ✨ Features
 
 ### Eliminate risks at the earliest stage
 
-We believe system clipboard is your first line of defense against hacks, phishing and scams.
+We believe the system clipboard is your first line of defense against hacks, phishing, and scams.
 
-Dome3 monitors your system clipboard, reacts when you are trying to copy a wallet address.
+Dome3 monitors your system clipboard and reacts when you are trying to copy a wallet address.
 
 <https://github.com/user-attachments/assets/28a8c7a3-85ec-4dca-ba59-ec4ad2aa5738>
 
-It's threat intel is powered trustworthy security vendors, and open-source dataset.
+Its threat intelligence is powered by security researchers and curated open-source OSINT datasets.
+
+- Revoke.cash
+- ScamSniffer
+- Scorechain
+- More to be added...
 
 If you'd like to, you can also edit your own allow list.
 
 <https://github.com/user-attachments/assets/5675b504-6ad2-4d5d-894c-1d97e979ae3d>
 
-## Getting Started
+Your custom label list will be stored in the following path:
 
-Download the latest application binary from [Releases](https://github.com/finn79426/Dome3/releases).
+- macOS: `~/Library/Application Support/com.dome3.app/labeled_addresses.csv`
+- Windows: `%APPDATA%\dome3\app\data\labeled_addresses.csv`
 
-Double click to open the application.
+## 🚀 Getting Started
 
-Done!
-
-Whenever you copy an wallet address, a notification message will be pop-up.
+1. Download the latest application binary from [Releases](https://github.com/finn79426/Dome3/releases).
+2. Double-click to launch the application.
+3. Done!
+4. Whenever you copy a wallet address, a notification message will pop up.
 
 ## FAQ
 
@@ -64,9 +71,11 @@ If you like to introduce paid intel providers (e.g., Chainalysis, MistTrack), fo
 
 However, if you require such integration, **we strongly recommend opening a PR ticket** to collaborate.
 
-We're welcome to incorporate any useful blockchain intelligence sources to make the Web3 ecosystem safer!
+We welcome cooperation with any blockchain intelligence sources.
 
-### How to import/export existing labeled addresses list?
+Let's make the Web3 ecosystem safer!
+
+### How to import/export the existing labeled addresses list?
 
 For data portability and batch editing, **the labeled address list is deliberately designed as a simple CSV file**. You can directly edit this file to import or export data.
 
@@ -77,7 +86,7 @@ CSV File Path:
 
 The CSV format is designed as simply as possible.
 
-As a reference, CSV file should looks something like this:
+As a reference, the CSV file should look something like this:
 
 ```csv
 network,address,label
