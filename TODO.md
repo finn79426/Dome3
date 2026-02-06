@@ -9,4 +9,5 @@
 - [ ] Feat: Add an icon for windows binary.
 - [ ] Feat: Makes UI is i18n language supported.
 - [ ] Feat: Add a system tray would be a good idea.
+- [ ] Feat: 如果地址是個 Smart Contract, 則 Icon 應該用一個 Smart Contract Icon 在原本的 Network Icon 右下角。
 - [ ] 
